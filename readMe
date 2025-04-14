@@ -1,4 +1,4 @@
-Graph Neural Networks for Heterophilic Graphs: A Novel Approach with Transformers
+##Graph Neural Networks for Heterophilic Graphs: A Novel Approach with Transformers
 
 This repository contains the code and implementation for my Graph Neural Network (GNN) research project, where I explore the use of transformer-based models to improve the performance of GNNs on heterophilic graphs. Traditional GNNs like GCNs have proven to be highly effective on homophilic graphs, but struggle with heterophilic graphs where connected nodes have different labels or attributes. The goal of this project is to bridge the gap by introducing novel techniques, leveraging self-attention mechanisms and positional encodings, to capture both local and global graph dependencies efficiently.
 Key Features:
