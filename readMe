@@ -1,13 +1,25 @@
-##Graph Neural Networks for Heterophilic Graphs: A Novel Approach with Transformers
+## **Graph Neural Networks for Heterophilic Graphs: A Novel Approach with Transformers**
 
-This repository contains the code and implementation for my Graph Neural Network (GNN) research project, where I explore the use of transformer-based models to improve the performance of GNNs on heterophilic graphs. Traditional GNNs like GCNs have proven to be highly effective on homophilic graphs, but struggle with heterophilic graphs where connected nodes have different labels or attributes. The goal of this project is to bridge the gap by introducing novel techniques, leveraging self-attention mechanisms and positional encodings, to capture both local and global graph dependencies efficiently.
-Key Features:
-Hybrid GNN Models: We explore the integration of Laplacian Eigenvalue Positional Encoding, transformer layers, and normalization techniques to boost the performance on heterophilic datasets.
-Ablation Study: We systematically analyze the contributions of key components in the model (Positional Encoding, Transformer Layers, Normalization) across two well-known datasets, Cora and Texas.
-Advanced Graph Transformer Architecture: The project incorporates cutting-edge approaches in transformer models to capture long-range dependencies in graph structures, offering a novel method for heterophilic graph representation learning.
-Datasets:
-Cora: A citation network where papers are connected based on similar topics (homophilic).
-Texas: A university webpage dataset where departments with diverse topics are connected (heterophilic).
-Future Work:
-Expanding the model to handle even larger, real-world graphs.
-Integrating more complex positional encoding techniques and experimenting with different attention mechanisms to improve scalability.
+This repository contains the code and implementation for my **Graph Neural Network (GNN) research project**, where I explore the use of **transformer-based models** to improve the performance of GNNs on **heterophilic graphs**. Traditional GNNs like **GCNs** have proven to be highly effective on **homophilic graphs**, but struggle with **heterophilic graphs** where connected nodes have different labels or attributes. The goal of this project is to bridge the gap by introducing novel techniques, leveraging **self-attention mechanisms** and **positional encodings**, to capture both **local and global graph dependencies** efficiently.
+
+### **Key Features**:
+- **Hybrid GNN Models**: We explore the integration of **Laplacian Eigenvalue Positional Encoding**, **transformer layers**, and **normalization** techniques to boost the performance on heterophilic datasets.
+- **Ablation Study**: We systematically analyze the contributions of key components in the model (Positional Encoding, Transformer Layers, Normalization) across two well-known datasets, **Cora** and **Texas**.
+- **Advanced Graph Transformer Architecture**: The project incorporates cutting-edge approaches in transformer models to capture long-range dependencies in graph structures, offering a novel method for **heterophilic graph representation learning**.
+
+### **Datasets**:
+- **Cora**: A citation network where papers are connected based on similar topics (homophilic).
+- **Texas**: A university webpage dataset where departments with diverse topics are connected (heterophilic).
+
+### **Future Work**:
+- Expanding the model to handle even larger, real-world graphs.
+- Integrating more complex positional encoding techniques and experimenting with different attention mechanisms to improve scalability.
+  
+### **How to Use**:
+1. Clone the repository.
+2. Install required libraries and dependencies.
+3. Run the provided scripts to train the model on **Cora** and **Texas** datasets.
+4. Explore the ablation study results and visualize the model’s performance.
+
+This project aims to push the boundaries of **graph representation learning** by blending the strengths of **transformers** with **graph neural networks**, offering a **unique solution to challenges in heterogeneous graph structures**. 
+
